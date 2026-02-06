@@ -1,0 +1,4 @@
+n = int(input())
+number = list(map(int , input().split()))
+result = sum(number)
+print(result)
