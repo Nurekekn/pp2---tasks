@@ -1,7 +1,0 @@
-x = 7
-if  x > 20 :
-    print("x kop 20 ")
-elif x > 5:
-    print("x kop , az 20")
-else:
-    print("x az 5")
