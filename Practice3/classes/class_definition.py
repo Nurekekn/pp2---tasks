@@ -141,3 +141,95 @@ print(p.info())
 print(s.info())
 print(st.info())
 print(ta.info())
+##
+class Device:
+    def init(self,brand,model):
+       self.brand = brand
+       self.model = model
+
+   class Device:
+    def init(self,brand,model):
+       self.brand = brand
+       self.model = model
+
+    def info(self):
+       print(f"{self.brand},{self.model}")
+
+class Smartphone(Device):
+    def init(self, brand, model, storage):
+        super().init(brand, model)
+        self.storage = storage
+
+    def info(self):
+        print(f"smartphone: {self.brand} {self.model}, storage: {self.storage}gb")
+    
+
+class Laptop(Device):
+    def init(self, brand, model, os, ram):
+        super().init(brand, model)
+        self.os = os
+        self.ram = ram
+
+    def info(self):
+        print(f"Laptop: {self.brand} {self.model}, OS: {self.os},RAM: {self.ram}gb")
+
+phone = Smartphone("", "", 256)
+phone.info()
+
+laptop = Laptop("", "", "", 16)
+laptop.info()
+
+class Smartphone(Device):
+    def init(self, brand, model, storage):
+        super().init(brand, model)
+        self.storage = storage
+
+    def info(self):
+        print(f"smartphone: {self.brand} {self.model}, storage: {self.storage}gb")
+    
+
+class Laptop(Device):
+    def init(self, brand, model, os, ram):
+        super().init(brand, model)
+        self.os = os
+        self.ram = ram
+
+    def info(self):
+        print(f"Laptop: {self.brand} {self.model}, OS: {self.os},RAM: {self.ram}gb")
+
+phone = Smartphone("", "", 256)
+phone.info()
+
+laptop = Laptop("", "", "", 16)
+laptop.info()
+class Device:
+    def init(self,brand,model):
+       self.brand = brand
+       self.model = model
+
+    def info(self):
+       print(f"{self.brand},{self.model}")
+
+class Smartphone(Device):
+    def init(self, brand, model, storage):
+        super().init(brand, model)
+        self.storage = storage
+
+    def info(self):
+        print(f"smartphone: {self.brand} {self.model}, storage: {self.storage}gb")
+    
+
+class Laptop(Device):
+    def init(self, brand, model, os, ram):
+        super().init(brand, model)
+        self.os = os
+        self.ram = ram
+
+    def info(self):
+        print(f"Laptop: {self.brand} {self.model}, OS: {self.os},RAM: {self.ram}gb")
+
+phone = Smartphone("", "", 256)
+phone.info()
+
+laptop = Laptop("", "", "", 16)
+laptop.info()
